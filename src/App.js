@@ -8,7 +8,7 @@ function App() {
 
   function ListWithButton(){
     // state to hold my list
-    const [list, setList] = useState(['Snorlax', 'Crochet', 'Art', 'Movies', 'Sleeping']);
+    const [list, setList] = useState(['Snorlax', 'Crochet', 'Art', 'Movies', 'TV Shows', 'Sleeping']);
 
     const reorderList = () => {
       // reorder the list when button is clicked
